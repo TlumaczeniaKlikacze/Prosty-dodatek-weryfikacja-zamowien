@@ -4,4 +4,4 @@ const interval =  setInterval(() => {
         document.getElementById('btn_status_change_no').click()
         window.location.href = 'https://zooart.com.pl/panel/order-verification.php'
     }
-}, 200);
+}, 400);
