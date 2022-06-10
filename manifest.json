@@ -1,0 +1,15 @@
+{
+    "name": "Drukowanie",
+    "description": "Drukowanie.",
+    "version": "1.0",
+    "permissions": ["https://zooart.com.pl/panel/order-verification.php?idt=*"],
+    "manifest_version": 2,
+    "icons": {},
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "matches": ["https://zooart.com.pl/panel/order-verification.php?idt=*"],
+        "js": ["js.js"]
+    }]
+}
